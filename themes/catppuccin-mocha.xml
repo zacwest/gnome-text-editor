@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme id="catppuccin-mocha" version="1.0" name="Catppuccin Mocha">
+  <metadata>
+    <property name="variant">dark</property>
+    <property name="light-variant">catppuccin-latte</property>
+  </metadata>
   <description>Soothing pastel theme for GNOME Text Editor</description>
 
   <!-- Catppuccin Palette -->

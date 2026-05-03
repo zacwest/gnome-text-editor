@@ -8,6 +8,15 @@ whiskers:
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme id="catppuccin-{{ flavor.identifier }}" version="1.0" name="Catppuccin {{ flavor.name }}">
+  <metadata>
+{%- if flavor.identifier == "latte" %}
+    <property name="variant">light</property>
+    <property name="dark-variant">catppuccin-mocha</property>
+{%- else %}
+    <property name="variant">dark</property>
+    <property name="light-variant">catppuccin-latte</property>
+{%- endif %}
+  </metadata>
   <description>Soothing pastel theme for GNOME Text Editor</description>
 
   <!-- Catppuccin Palette -->
